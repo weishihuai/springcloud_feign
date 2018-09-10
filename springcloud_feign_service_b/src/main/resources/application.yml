@@ -1,0 +1,10 @@
+server:
+#  port: 3333
+  port: 4444
+spring:
+  application:
+    name: eureka-feign-service-b
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/

@@ -1,0 +1,10 @@
+server:
+  port: 2222
+spring:
+  application:
+    #应用名称，Feign通过@FeignClient指定服务名称进行调用
+    name: eureka-feign-service-a
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
